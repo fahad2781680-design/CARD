@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Newsletter Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<body class="bg-[url('background.jpg')] bg-cover bg-center bg-no-repeat">
+
+<body class="bg-purple-800 flex items-center justify-center min-h-screen">
+
+  <div class="bg-gray-900 rounded-md overflow-hidden shadow-lg flex flex-col md:flex-row max-w-2xl w-full mx-4">
+   
+    <div class="md:w-1/2 w-full">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+           alt="Healthy Food"
+           class="object-cover w-full h-48 md:h-full">
+    </div>
+
+  
+    <div class="md:w-1/2 w-full p-6 flex flex-col justify-center">
+      <h2 class="text-white text-lg font-semibold mb-2">
+        Get diet and fitness tips in your inbox
+      </h2>
+      <p class="text-gray-400 text-sm mb-4">
+        Eat better and exercise better. Sign up for the <span class="text-white font-medium">Diet&Fitness</span> newsletter.
+      </p>
+
+      <form class="flex flex-col sm:flex-row">
+        <input type="email" placeholder="Enter your email address here"
+               class="flex-grow p-2 rounded-md sm:rounded-l-md sm:rounded-r-none bg-gray-800 text-gray-200 border border-gray-700 focus:outline-none focus:ring-1 focus:ring-red-400 mb-3 sm:mb-0">
+        <button class="bg-yellow-500 hover:bg-red-600 text-gray-900 font-semibold px-4 py-2 rounded-md sm:rounded-r-md sm:rounded-l-none transition-all duration-300">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
